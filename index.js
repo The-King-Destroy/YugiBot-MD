@@ -40,9 +40,9 @@ const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
 //let require = createRequire(megu)
 let { say } = cfonts
 
-console.log(chalk.bold.redBright(`\n✰ Iniciando Yuki-Suou-Bot ✰\n`))
+console.log(chalk.bold.redBright(`\n✰ Iniciando Yugi-Bot-MD ✰\n`))
 
-say('YukiBot-MD', {
+say('YugiBot-MD', {
 font: 'block',
 align: 'center',
 colors: ['magentaBright']
@@ -211,7 +211,7 @@ if (opcion == '1' || methodCodeQR) {
 console.log(chalk.bold.yellow(`\n❐ ESCANEA EL CÓDIGO QR EXPIRA EN 45 SEGUNDOS`))}
 }
 if (connection == 'open') {
-console.log(chalk.bold.green('\n❀ YukiBot-MD Conectada con éxito ❀'))
+console.log(chalk.bold.green('\n❀ YugiBot-MD Conectada con éxito ❀'))
 }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode
 if (connection === 'close') {
